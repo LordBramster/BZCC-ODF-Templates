@@ -1,0 +1,53 @@
+[GameObjectClass]
+categoryTypeOverride = 25 // TEAM_SLOT_SCAVENGER
+aiName = "ScavHProcess"
+aiName2 = "ScavHProcess"
+
+[ScavengerHClass]
+soundPickup = "suck.wav"
+scrapHold = 20
+deployClass = ""
+enablePoolGoTo = true
+deployOffset = 0.0f
+
+// Drop
+doDrop = false
+DropDist = 8.0f
+doDropRecycler = true
+doDropExtractor = true
+doDropSilo = true
+
+CanScavenge = true
+ScrapFirst = true
+IsFearless = true
+
+// Anim
+animPickup = ""
+animPickupCycle = 0
+
+DeathScrapDropRatio = 0.0f
+AddScrapHoldToTotal = false
+RequiresExtractor = true
+RunParallel = false
+InitScrapDelay = 0.0f
+ScrapDelay = 0.0f
+
+// ScavClass
+ScavClassMask = 0
+ScavClassMatch = 0
+ScavClassProvides = 0
+
+// Build
+ChromeEffect = false
+ChromeTexture = ""
+BuildSparkConfig = "sparker"
+LineStartColor = "0 127 255 255"
+LineFinishColor = "0 0 255 0"
+BeamColor = "0 127 255 31"
+lineSolidColor = "0 63 255 127"
+SolidColorDistance = 150.0f
+MaxLineDistance = 250.0f
+
+[CraftClass]
+ScavengerCollectPoolRange = rangeScan
+ScavengerChoosePoolRange = 300.0f

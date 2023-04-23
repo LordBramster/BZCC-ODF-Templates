@@ -1,0 +1,14 @@
+[EntityClass]
+AllowHQShadows = true
+
+[LOD1]
+dontShiftLOD = false
+geometryName = ""
+radius = 2.0f
+distance = 1000.0f
+
+[LOD2]
+dontShiftLOD = false
+geometryName = ""
+radius = 1.0f
+distance = 2000.0f

@@ -1,0 +1,260 @@
+[GameObjectClass]
+
+//
+// General Settings 01
+//
+baseName = ""
+unitName = ""
+unitIcon = "icon_baseName.tga"
+unitStatus = "wire_baseName.tga"
+infoName = "baseName.inf"
+ignoreMissingInf = false
+canInteract = true
+nation = ""
+ownsTerrain = false
+isTerrain = false
+needPilot = false
+playerOnly = false
+canDetect = true
+canSnipe = false
+canCollide = false
+boxCollide = true
+isAssault = false
+isSingle = false
+isGrouped = false
+needGroup = false
+isLimited = false
+needLimit = false
+
+// Limit
+limitClass1 = ""
+limitClass1Count = 0
+limitClass1Text =""
+
+// Team Limit
+teamLimitClass1 = ""
+teamLimitClass1Count = 0
+teamLimitClass1Text = ""
+
+// continued ...
+isStealth = false
+CanSelect = true
+NoShadow = false
+ClipDepth = true
+Permanent = false
+AllowSeismic = true
+Tuggable = -1
+ScanTeamLimit = 0
+PilotConfig = ""
+alwaysClip = false
+
+//
+// General Settings 02
+//
+SingletonGroup = false
+IdenticalGroup = false
+DAMAGE_SCALE = 0.05f
+Mass = -1.0f
+allowTLI = true
+allowMDMCollisionDetonation = -1
+enableServiceTruckPull = -1
+serviceTruckAutoHeal = -1
+Lifespan = -1.0f
+CanAcceptPowerups = true
+AcceptPowerupMask = 127
+DeployedPowerupMask = 127
+PowerupRaceMask = 134217727
+DeployedPowerupRaceMask = 134217727
+MaxChromeDistance = 0.0f
+ExplosionEnergy = 1000.0f
+xplChunk = ""
+xplCrash = ""
+ExplodeSound = "" 
+LeaveExplodeScorch = true
+LightsOnlyWhenPiloted = false
+AlwaysShowAmmo = false
+SmartIsAirUnitCheck = true
+AllowFactoryCustomizations = true
+StayWithOwner = false
+AllowUndergroundSpawn = false
+UseCollisionMeshForPathing = -1
+FactoryCustomizationMask = 2147483647
+PowerupSlotAcceptMask = 2147483647
+AlignTerrainReplaceType = 0
+DeployOnBuild = -1
+VehicleSearchFilter = 0
+TerrainBlendRadius = 0
+MaxPostExplosionVelocity = -1
+DamageIfVelocityClamped = 0.05
+
+// Service
+GameObjectClassServiceMask = 0
+GameObjectClassServiceMatch = 0
+GameObjectClassServiceProvides = 0
+
+// PowerUp
+GameObjectClassPowerUpMask = 0
+GameObjectClassPowerUpMatch = 0
+GameObjectClassPowerUpProvides = 0
+
+//
+// Combat Settings
+//
+maxHealth = 0
+addHealth = 0
+aiAddHealth = addHealth
+
+// AddHealth
+CondAddHealthMinRatio1 = -1
+CondAddHealthMaxRatio1 = -1
+CondAddHealthValue1 = 0
+CondAddHealthFlags1 = 2147483647
+
+// continued ...
+DoBettyHealth = true
+maxAmmo = 0
+addAmmo = 0
+aiAddAmmo = addAmmo
+DoBettyAmmo = true
+aiName = ""
+aiName2 = ""
+collisionRadius = Bounding Sphere * 0.75f
+CanBeIdleVictim = true
+DoBettyAttack = true
+
+//
+// Weapon Settings
+//
+
+// Weapon
+weaponHard1 = ""
+visualHard1 = ""
+recoilName1 = ""
+recoilDist1 = ""
+weaponAssault1 = 0
+weaponName1 = ""
+weaponGroup1 = -1
+weaponMask = "11111"
+
+// continued ...
+imageSignature = 1.0f
+radarSignature = 1.0f
+heatSignature = 1.0f
+armorClass = "N"
+shieldClass = "N"
+hitType = "B"
+explosionName = ""
+
+// Damage
+damageEffect1 = "dmgvhcl1"
+// ...
+damageEffect4 = "dmgvhcl4"
+
+//
+// Build Settings
+//
+scrapCost = 2147483647
+scrapValue = 0
+scrapReturn = scrapValue
+powerCost = 0
+buildTime = 5.0f
+customCost = scrapCost * 6 / 5
+customTime = buildTime * 1.2f
+CanDropScrap = true
+
+// Scrap
+ScrapClass1 = ""
+// ...
+ScrapClass3 = ""
+
+// continued ...
+buildRequire = "N"
+buildSupport = "N"
+ClearBuildZone = -1
+CategoryTypeOverride = -1
+
+// Require
+requireCount = 0
+requireName1 = ""
+requireText1 = ""
+
+// Provides
+provideCount = 0
+provideName1 = ""
+
+// continued ...
+upgradeName = ""
+FactoryWeaponConfig = ""
+
+// 
+// Model Settings
+//
+geometryName = ""
+geometryScale = 1.0f
+mrmFactor = 0
+
+// Anim
+animCount = 0
+animName1 = ""
+animFile1 = ""
+
+// continued ...
+cockpitName = ""
+cockpitScale = 1.0
+
+// AnimCockpit
+animCountCockpit = 0
+animNameCockpit1 = ""
+animFileCockpit1 = ""
+
+// continued ...
+collisionName = ""
+collisionScale = 1.0
+
+// Light
+lightHard1 = ""
+lightName1 = ""
+
+// Effect
+effectHard1 = ""
+effectName1 = ""
+effectMinAltitude1 = -1e30
+effectMaxAltitude1 = -1e30
+effectMinVelocity1 = -1.0f
+effectMaxVelocity1 = -1.0f 
+effectMinHealth1 = -1.0f
+effectMaxHealth1 = -1.0f
+effectMinAmmo1 = -1.0f 
+effectMaxAmmo1 = -1.0f 
+effectFlags1 = 0
+
+// continued ...
+EffectsMask = 65535
+LightsOnEffectsMask = 65535
+LightsOffEffectsMask = 65535
+InitAnimation = ""
+RunAnimation = ""
+InitAnimIsLooped = false
+RunAnimIsLooped = true
+
+// Turret
+turretCount = 0
+turretName1 = ""
+
+// Chunks
+NumChunks = -1
+NumChunks1 = -1
+chunkEffect1 = "iochnk01.fbx"
+chunkScale1 = 1.0
+
+// continued ...
+crashName = ""
+crashScale = 1.0
+
+// SeparateChunks
+hasSeparateChunks = false
+SeparateChunkEffect1 = "iochnk01.fbx"
+SeparateChunkScale1 = 1.0
+
+// continued ...
+UseVehicleCrashOnDeath = true
