@@ -21,8 +21,10 @@ Special thanks to **General Black Dragon**, and **Ken Miller** for the **[ODF Do
 
 <br>
 
-# Available Classes
+# What is Available
 
-- EntityClass
-- GameObjectClass
-- ScavengerClass
+| Classes |
+| :------ |
+| EntityClass |
+| GameObjectClass |
+| ScavengerClass |
