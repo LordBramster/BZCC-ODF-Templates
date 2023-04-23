@@ -21,7 +21,7 @@ Special thanks to **General Black Dragon**, and **Ken Miller** for the **[ODF Do
 
 <br>
 
-# What is Available
+# What is available?
 
 | Classes |
 | :------ |
