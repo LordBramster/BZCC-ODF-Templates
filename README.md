@@ -28,3 +28,4 @@ Special thanks to **General Black Dragon**, and **Ken Miller** for the **[ODF Do
 | EntityClass |
 | GameObjectClass |
 | ScavengerClass |
+| ScavengerHClass |
